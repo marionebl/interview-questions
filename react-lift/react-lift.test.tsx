@@ -16,7 +16,7 @@ test('renders [data-testid="input"] element', () => {
     expect(container.queryByTestId('input')).not.toBeNull();
 });
 
-test('renders count into [data-testid="input"] on click', () => {
+test.skip('renders count into [data-testid="input"] on click', () => {
     const container = RTL.render(<ReactLift/>);
     const input = container.queryByTestId('input');
     const output = container.queryByTestId('input-client-x');
@@ -28,7 +28,7 @@ test('renders count into [data-testid="input"] on click', () => {
     expect(output.innerHTML).toBe("2");
 });
 
-test('renders clientX into [data-testid="output"] on click', () => {
+test.skip('renders clientX into [data-testid="output"] on click', () => {
     const container = RTL.render(<ReactLift/>);
     const input = container.queryByTestId('input');
     const output = container.queryByTestId('output');

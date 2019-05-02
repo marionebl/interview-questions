@@ -7,5 +7,14 @@ services:
       - "8443:8443"
       - "1234:1234"
     volumes:
-      - .:/root/repo/
+      - ./.git:/root/repo/.git
+      - ./react-lift:/root/repo/react-lift
+      - ./throttle:/root/repo/throttle
+      - ./tolowercase:/root/repo/tolowercase
+      - ./.gitignore:/root/repo/.gitignore
+      - ./docker-compose.yml:/root/repo/docker-compose.yml
+      - ./Dockerfile:/root/repo/Dockerfile
+      - ./package.json:/root/repo/package.json
+      - ./README.md:/root/repo/README.md
+
     command: code-server --no-auth /root/repo
