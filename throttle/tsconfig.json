@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "allowJs": true,
+        "lib": ["es2015"],
+        "outDir": "lib"
+    }
+}

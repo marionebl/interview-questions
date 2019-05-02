@@ -1,0 +1,11 @@
+{
+    "name": "@interview-questions/tolowercase",
+    "version": "1.0.0",
+    "description": "Tech interview questions",
+    "author": "Mario Nebl <hello@mario-nebl.de>",
+    "license": "MIT",
+    "scripts": {
+        "test": "../node_modules/.bin/jest"
+    }
+  }
+  

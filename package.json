@@ -1,0 +1,27 @@
+{
+  "name": "interview-questions",
+  "version": "1.0.0",
+  "description": "Tech interview questions",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marionebl/interview-questions.git"
+  },
+  "author": "Mario Nebl <hello@mario-nebl.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.15",
+    "@types/react": "^16.8.15",
+    "@types/react-dom": "^16.8.4",
+    "dodger": "^0.0.0",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-testing-library": "^7.0.0"
+  }
+}
