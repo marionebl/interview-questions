@@ -6,6 +6,7 @@
 
 ```sh
 git clone https://github.com/marionebl/interview-questions.git
+cd interview-questions
 docker-compose pull
 docker-compose up # access code-server at localhost:8443
 ```
@@ -14,6 +15,7 @@ docker-compose up # access code-server at localhost:8443
 
 ```
 git clone https://github.com/marionebl/interview-questions.git
+cd interview-questions
 yarn
 ```
 
