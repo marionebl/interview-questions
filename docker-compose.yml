@@ -1,0 +1,11 @@
+version: "3"
+services:
+  interview-questions:
+    build: .
+    image: marionebl/interview-questions
+    ports:
+      - "8443:8443"
+      - "1234:1234"
+    volumes:
+      - .:/root/repo/
+    command: code-server --no-auth /root/repo

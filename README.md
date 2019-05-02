@@ -2,7 +2,18 @@
 
 ## Getting started
 
+### With Docker
+
+```sh
+git clone https://github.com/marionebl/interview-questions.git
+docker-compose pull
+docker-compuse # access code-server at localhost:8443
 ```
+
+### With local setup
+
+```
+git clone https://github.com/marionebl/interview-questions.git
 yarn
 ```
 
